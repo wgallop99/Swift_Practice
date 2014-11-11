@@ -54,3 +54,36 @@ if(OtherNumber == 5) && (number == 0) {
 } else {
     println("The number is NOT 5")
 }
+
+var newNumber = 3
+
+newNumber = ++newNumber
+
+var newOtherNumber = newNumber
+
+for var i = 10; i>3; --i {
+    println(i)
+}
+
+var otherNumbers = [3, 6, 1, 8, 4]
+
+var i = 3
+
+while (i < 17) {
+    
+    i = i + 1
+    println(i)
+}
+
+var j = 0
+
+var array = [7, 2, 9, 4]
+
+var max = array.count
+
+while(j<max){
+    println(array[j])
+    
+    j++
+}
+
